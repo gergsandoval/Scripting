@@ -78,6 +78,8 @@ const getFrequencies = words => {
 // 4.- Que hace el siguiente código: 
 
 // driver.implicitly_wait(20)
+// Es un tiempo de configuracion general, el driver esperara hasta 20 segundos para encontrar el elemento que esta buscando
+// caso contrario lanzara excepcion.
 //------------------------------------------------------------------------------------------------------
 // 5.- Que hace el siguiente código: 
 
