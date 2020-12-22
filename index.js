@@ -71,7 +71,8 @@ const getFrequencies = words => {
 // account = WebDriverWait(self.driver, 10).until(expected_condition.visibility_of_element_located((By.LINK_TEXT,  "ACCOUNT"))
 // account.click()
 // El driver esperara hasta 10 segundos para encontrar un elemento el cual contenga un link con el texto "ACCOUNT"
-// Si lo encuentra hara click sobre el mismo.
+// Si lo encuentra hara click sobre el mismo
+// Caso contrario que pasen mas de 10 segundo lanzara una excepcion.
 //------------------------------------------------------------------------------------------------------
 
 // 4.- Que hace el siguiente código: 
